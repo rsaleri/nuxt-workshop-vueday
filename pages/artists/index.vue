@@ -8,8 +8,8 @@
 <script>
 import fakeData from '@/assets/fakeData'
 export default {
-name: "index",
-  data() {
+  name: 'Index',
+  data () {
     return {
       artists: fakeData
     }

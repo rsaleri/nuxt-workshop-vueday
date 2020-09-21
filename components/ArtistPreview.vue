@@ -22,23 +22,23 @@ export default {
     artist: {
       type: Object,
       required: true,
-      default() {
+      default () {
         return {
-          'id': null,
-          'type': '',
-          'master_id': null,
-          'master_url': null,
-          'uri': '',
-          'title': '',
-          'thumb': '',
-          'cover_image': '',
-          'resource_url': ''
+          id: null,
+          type: '',
+          master_id: null,
+          master_url: null,
+          uri: '',
+          title: '',
+          thumb: '',
+          cover_image: '',
+          resource_url: ''
         }
       }
     }
   },
   computed: {
-    linkTo() {
+    linkTo () {
       return `artists/${this.artist.id}`
     }
   }

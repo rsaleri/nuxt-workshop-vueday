@@ -19,6 +19,7 @@ export default {
   ** Nuxt.js build-modules
   */
   buildModules: [
+    '@nuxtjs/eslint-module'
   ],
   /*
   ** Nuxt.js modules

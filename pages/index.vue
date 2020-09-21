@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav-bar/>
+    <nav-bar />
     <h1>
       Hello World
     </h1>
@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: 'index'
+  name: 'Index'
 }
 </script>
 

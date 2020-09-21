@@ -1,15 +1,14 @@
 <template>
   <div>
-    <nav-bar/>
-    <h1>
-      Hello World
-    </h1>
+    <nav-bar />
+    <h2>{{$route.params.id}}</h2>
   </div>
 </template>
 
 <script>
+
 export default {
-  name: 'index'
+name: "_id"
 }
 </script>
 

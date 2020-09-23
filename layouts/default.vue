@@ -1,6 +1,7 @@
 <template>
   <div>
     <nav-bar />
+    <BreadCrumbs />
     <Nuxt />
   </div>
 </template>

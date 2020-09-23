@@ -14,6 +14,9 @@ export default {
     return {
       artists: fakeData
     }
+  },
+  mounted () {
+    this.$store.commit('SET_BREADCRUMB_LINKS', this.$route.path.split('/'))
   }
 }
 </script>

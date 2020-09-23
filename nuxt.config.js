@@ -20,7 +20,8 @@ export default {
   */
   buildModules: [
     '@nuxtjs/eslint-module',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxt/http'
   ],
   /*
   ** Nuxt.js modules
@@ -32,5 +33,16 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+  },
+  /*
+ ** Loading bar between routes
+ ** See https://nuxtjs.org/guides/features/loading
+ */
+  loading: {
+    color: 'blue',
+    height: '5px'
+  },
+  http: {
+    baseURL: 'https://api.discogs.com/'
   }
 }

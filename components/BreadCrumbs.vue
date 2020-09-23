@@ -1,5 +1,5 @@
 <template>
-  <div v-show="breadcrumbs.length > 1" class="mb-4">
+  <div class="mb-4">
     <nav class="sm:hidden">
       <NuxtLink
         :to="breadcrumbs.length ? breadcrumbs[0].to : '/'"

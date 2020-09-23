@@ -1,13 +1,13 @@
 <template>
   <div>
-    <h2>{{ $route.params.id }}</h2>
+    <nav-bar />
+    <Nuxt />
   </div>
 </template>
 
 <script>
-
 export default {
-  name: 'Id'
+  name: 'Default'
 }
 </script>
 

@@ -1,6 +1,5 @@
 <template>
   <div>
-    <nav-bar />
     <h1>
       Hello World
     </h1>
